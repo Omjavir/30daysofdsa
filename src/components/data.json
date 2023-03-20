@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Set Matrix Zero",
+    "completed": "https://leetcode.com/problems/set-matrix-zeroes/"
+  },
+  {
+    "id": 2,
+    "title": "Stock Buy and Sell",
+    "completed": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "id": 3,
+    "title": "Rotate Matrix",
+    "completed": "https://leetcode.com/problems/rotate-image/"
+  },
+  {
+    "id": 4,
+    "title": "Repeat and Missing Number",
+    "completed": "https://www.interviewbit.com/problems/repeat-and-missing-number-array/"
+  },
+  {
+    "id": 5,
+    "title": "Reverse a Linked List",
+    "completed": "https://leetcode.com/problems/reverse-linked-list/"
+  },
+  {
+    "id": 6,
+    "title": "Add Two Numbers",
+    "completed": "https://leetcode.com/problems/add-two-numbers/"
+  },
+  {
+    "id": 7,
+    "title": "Flatteing a Linked List",
+    "completed": "https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1"
+  },
+  {
+    "id": 8,
+    "title": "Trapping Rain Water",
+    "completed": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "id": 9,
+    "title": "Max Consecutive Ones",
+    "completed": "https://leetcode.com/problems/max-consecutive-ones/"
+  },
+  {
+    "id": 10,
+    "title": "3 Sum",
+    "completed": "https://leetcode.com/problems/3sum/"
+  }
+]
