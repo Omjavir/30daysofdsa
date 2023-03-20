@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Table from "./Table";
 
 const Accordion = ({ payload }) => {
-  console.log("Payload :", payload);
+  // console.log("Payload :", payload);
   const [isActive, setIsActive] = useState(true);
   const [numsChecked, setNumsChecked] = useState(0);
   const handleChange = (e) => {
@@ -24,13 +24,13 @@ const Accordion = ({ payload }) => {
           </h3>
           <div className="flex gap-2 sm:gap-3">
             <input
-              className="accent-green-400 w-20 sm:w-56"
+              className="accent-green-400 w-24 sm:w-56"
               type="range"
               name=""
               id=""
               min={0}
               value={numsChecked}
-              max={10}
+              max={30}
             />
             <h3 className="font-extrabold text-xl">{isActive ? "x" : "+"}</h3>
           </div>
