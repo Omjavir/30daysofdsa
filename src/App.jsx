@@ -9,7 +9,7 @@ const App = () => {
 
   const getData = async () => {
     const { data } = await axios.get(
-      "https://api.npoint.io/20813a09c2e352a99a64"
+      "https://api.npoint.io/c785f2c0e50bd013c3a3"
     );
     // console.log("Data : ", data);
     setPayload(data);
@@ -25,7 +25,7 @@ const App = () => {
       <h2 className="rounded-md p-3 text-gray-700 sm:text-gray-900 text text-center font-extrabold text-2xl sm:text-4xl">
         30 DAYS OF DSA
       </h2>
-      <div className="block m-auto">
+      <div className="block m-auto w-[100vw] sm:w-[60vw]">
         <Acordion payload={payload} />
       </div>
     </div>
