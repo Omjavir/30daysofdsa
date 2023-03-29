@@ -1,14 +1,52 @@
-import { Container, Stack, Table } from "react-bootstrap";
-import Accordion from "react-bootstrap/Accordion";
+import React, { useEffect, useState } from "react";
+import { Accordion, Container, Table } from "react-bootstrap";
 
-function Acordion({ payload }) {
-  // console.log('payload', payload)
+const Acordion = ({ payload }) => {
+  console.log('payload.length', payload.length*3)
+  const [totalSelectedCheckboxes, setTotalSelectedCheckboxes] = useState(0);
+  const [checkedState, setCheckedState] = useState(
+    new Array(90).fill(false)
+  );
+
+  const handleOnChange = (position) => {
+    const updatedCheckedState = checkedState.map((item, index) =>
+      index === position ? !item : item
+    );
+    setCheckedState(updatedCheckedState);
+    setTotalSelectedCheckboxes(
+      document.querySelectorAll("input[type=checkbox]:checked").length
+    );
+  };
+
+  useEffect(() => {
+    const items = JSON.parse(localStorage.getItem("items"));
+    if (items) {
+      setCheckedState(items);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("items", JSON.stringify(checkedState));
+  }, [checkedState]);
+
   return (
-    <div className="container">
+    <div className="container ">
+      <Container>
+        <h4 className="text-green-600 font-semibold">Your Progress :</h4>
+        <input
+          className="w-full accent-green-500"
+          type="range"
+          name=""
+          id=""
+          min={0}
+          value={totalSelectedCheckboxes}
+          max={payload.length * 3}
+        />
+      </Container>
       {payload.length > 0 &&
         payload.map((data) => (
           <Accordion
-            className="m-2"
+            className="m-2 shadow-sm"
             key={data.id}
             defaultActiveKey={data.id[0]}
             alwaysOpen
@@ -27,12 +65,20 @@ function Acordion({ payload }) {
                     </tr>
                   </thead>
                   <tbody>
-                    {data.problems.map((problem) => (
+                    {data.problems.map((problem, index) => (
                       <tr key={problem.id}>
                         <td>
-                          <input type="checkbox" name="" id="" />
+                          <input
+                            className="accent-green-500"
+                            type="checkbox"
+                            id={`custom-checkbox-${index}`}
+                            name={problem.name}
+                            value={problem.name}g
+                            checked={checkedState[index]}
+                            onChange={() => handleOnChange(index)}
+                          />
                         </td>
-                        <td>{problem.name}</td>
+                        <td className="font-semibold">{problem.name}</td>
                         <td>
                           <a href={problem.link} target={"_blank"}>
                             Link
@@ -48,6 +94,6 @@ function Acordion({ payload }) {
         ))}
     </div>
   );
-}
+};
 
 export default Acordion;

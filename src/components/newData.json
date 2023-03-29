@@ -208,5 +208,425 @@
         "link": "https://leetcode.com/problems/4sum/"
       }
     ]
+  },
+  {
+    "id": 11,
+    "title": "GREEDY ALGORITHM",
+    "problems": [
+      {
+        "id": 11.1,
+        "name": "N Meetings in One Room",
+        "link": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1"
+      },
+      {
+        "id": 11.2,
+        "name": "Minimum number of platforms required for a railway",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#"
+      },
+      {
+        "id": 11.3,
+        "name": "Job Sequencing Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "GREEDY ALGORITHM II",
+    "problems": [
+      {
+        "id": 12.1,
+        "name": "N Meetings in one room",
+        "link": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1"
+      },
+      {
+        "id": 12.2,
+        "name": "Find Minimum Number of Coins",
+        "link": "https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/"
+      },
+      {
+        "id": 12.3,
+        "name": "Fractional Knapsack",
+        "link": "https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "RECURSION",
+    "problems": [
+      {
+        "id": 13.1,
+        "name": "Subset Sum",
+        "link": "https://practice.geeksforgeeks.org/problems/subset-sums2234/1"
+      },
+      {
+        "id": 13.2,
+        "name": "Subset Sum II",
+        "link": "https://leetcode.com/problems/subsets-ii/"
+      },
+      {
+        "id": 13.3,
+        "name": "Palindrome Partinioning",
+        "link": "https://leetcode.com/problems/palindrome-partitioning/"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "RECURSION II",
+    "problems": [
+      {
+        "id": 14.1,
+        "name": "Combination Sum",
+        "link": "https://leetcode.com/problems/combination-sum/"
+      },
+      {
+        "id": 14.2,
+        "name": "Combination Sum II",
+        "link": "https://leetcode.com/problems/combination-sum-ii/"
+      },
+      {
+        "id": 14.3,
+        "name": "Permuatation Sequence",
+        "link": "https://leetcode.com/problems/permutation-sequence/"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "RECURSION && BACKTRACKING",
+    "problems": [
+      {
+        "id": 15.1,
+        "name": "Sudoku Solver",
+        "link": "https://leetcode.com/problems/sudoku-solver/"
+      },
+      {
+        "id": 15.2,
+        "name": "N-Queen Problem",
+        "link": "https://leetcode.com/problems/n-queens/"
+      },
+      {
+        "id": 15.3,
+        "name": "Print all Permutations",
+        "link": "https://leetcode.com/problems/permutations/"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "RECURSION && BACKTRACKING II",
+    "problems": [
+      {
+        "id": 16.1,
+        "name": "Word Break (print all ways)",
+        "link": "https://bit.ly/3FxgW92"
+      },
+      {
+        "id": 16.2,
+        "name": "Rat in a Maze",
+        "link": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"
+      },
+      {
+        "id": 16.3,
+        "name": "M-Coloring Problem",
+        "link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1#"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "LINKED LIST && ARRAYS II",
+    "problems": [
+      {
+        "id": 17.1,
+        "name": "Median of two sorted arrays",
+        "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+      },
+      {
+        "id": 17.2,
+        "name": "Allocate Number of Pages",
+        "link": "https://www.interviewbit.com/problems/allocate-books/"
+      },
+      {
+        "id": 17.3,
+        "name": "K-th Element of two sorted arrays",
+        "link": "https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "HEAPS",
+    "problems": [
+      {
+        "id": 18.1,
+        "name": "Merge K Sorted Arrays",
+        "link": "https://www.codingninjas.com/codestudio/problems/merge-k-sorted-arrays_975379"
+      },
+      {
+        "id": 18.2,
+        "name": "Maximum Sum Combination",
+        "link": "https://www.interviewbit.com/problems/maximum-sum-combinations/"
+      },
+      {
+        "id": 18.3,
+        "name": "K-th Largest Element",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "STACK && QUEUE",
+    "problems": [
+      {
+        "id": 19.1,
+        "name": "Next Greater Element",
+        "link": "https://leetcode.com/problems/next-greater-element-ii/description/"
+      },
+      {
+        "id": 19.2,
+        "name": "Valid Parentheses",
+        "link": "https://leetcode.com/problems/valid-parentheses/"
+      },
+      {
+        "id": 19.3,
+        "name": "Stack Implementation using Arrays",
+        "link": "https://www.codingninjas.com/codestudio/problems/stack-implementation-using-array_3210209"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "STACK && QUEUE II",
+    "problems": [
+      {
+        "id": 20.1,
+        "name": "Rotting Oranges",
+        "link": "https://leetcode.com/problems/rotting-oranges/"
+      },
+      {
+        "id": 20.2,
+        "name": "Sliding Window Problem",
+        "link": "https://leetcode.com/problems/sliding-window-maximum/"
+      },
+      {
+        "id": 20.3,
+        "name": "Largest Triangle in Histogram",
+        "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "STRINGS",
+    "problems": [
+      {
+        "id": 21.1,
+        "name": "Reverse a String",
+        "link": "https://leetcode.com/problems/reverse-words-in-a-string/"
+      },
+      {
+        "id": 21.2,
+        "name": "Valid Anagrams",
+        "link": "https://leetcode.com/problems/valid-anagram/"
+      },
+      {
+        "id": 21.3,
+        "name": "Count and Say",
+        "link": "https://leetcode.com/problems/count-and-say/"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "BINARY TREE",
+    "problems": [
+      {
+        "id": 22.1,
+        "name": "In-Order Traversal",
+        "link": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+      },
+      {
+        "id": 22.2,
+        "name": "Pre-Order Traversal",
+        "link": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+      },
+      {
+        "id": 22.3,
+        "name": "Post-Order Traversal",
+        "link": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "BINARY TREE II",
+    "problems": [
+      {
+        "id": 23.1,
+        "name": "Maximum Depth",
+        "link": "hhttps://leetcode.com/problems/maximum-depth-of-binary-tree/"
+      },
+      {
+        "id": 23.2,
+        "name": "Zig-Zag Order Traversal",
+        "link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+      },
+      {
+        "id": 23.3,
+        "name": "Maximum Path Sum",
+        "link": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "BINARY SEARCH TREE",
+    "problems": [
+      {
+        "id": 24.1,
+        "name": "Binary Search Tree Iterator",
+        "link": "https://leetcode.com/problems/binary-search-tree-iterator/"
+      },
+      {
+        "id": 24.2,
+        "name": "Populate next pointer",
+        "link": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/"
+      },
+      {
+        "id": 24.3,
+        "name": "Serialize and Deserialize Binary Tree",
+        "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "GRAPH",
+    "problems": [
+      {
+        "id": 25.1,
+        "name": "Depth First Search",
+        "link": "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1"
+      },
+      {
+        "id": 25.2,
+        "name": "Breadt First Search",
+        "link": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1"
+      },
+      {
+        "id": 25.3,
+        "name": "Topological Sort (BFS)",
+        "link": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "GRAPH II",
+    "problems": [
+      {
+        "id": 26.1,
+        "name": "Topological Sort (DFS)",
+        "link": "https://practice.geeksforgeeks.org/problems/topological-sort/1"
+      },
+      {
+        "id": 26.2,
+        "name": "Dijikstra's Algorithm",
+        "link": "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1"
+      },
+      {
+        "id": 26.3,
+        "name": "Bellman Ford Algorithm",
+        "link": "https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/0/?fbclid=IwAR2_lL0T84DnciLyzMTQuVTMBOi82nTWNLuXjUgahnrtBgkphKiYk6xcyJU"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "GRAPH III",
+    "problems": [
+      {
+        "id": 27.1,
+        "name": "Strongly Connected Components",
+        "link": "https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/discuss/766485/kosaraju-algorithm-on"
+      },
+      {
+        "id": 27.2,
+        "name": "Floyd Warshall",
+        "link": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1"
+      },
+      {
+        "id": 27.3,
+        "name": "Minimum Spanning Tree",
+        "link": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "TRIE",
+    "problems": [
+      {
+        "id": 28.1,
+        "name": "Implement Trie (Prefix Trie)",
+        "link": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+      },
+      {
+        "id": 28.2,
+        "name": "Implement Trie - 2(Prefix Trie)",
+        "link": "https://bit.ly/3qwT4OL"
+      },
+      {
+        "id": 28.3,
+        "name": "Maximum XOR of two numbers in arrays",
+        "link": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "DYNAMIC PROGRAMMING",
+    "problems": [
+      {
+        "id": 29.1,
+        "name": "Max Product Subarray",
+        "link": "https://leetcode.com/problems/maximum-product-subarray/"
+      },
+      {
+        "id": 29.2,
+        "name": "Longest Common Subsequence",
+        "link": "https://leetcode.com/problems/longest-common-subsequence/"
+      },
+      {
+        "id": 29.3,
+        "name": "Edit Distance",
+        "link": "https://leetcode.com/problems/edit-distance/"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "DYNAMIC PROGRAMMING II",
+    "problems": [
+      {
+        "id": 30.1,
+        "name": "Coin Change",
+        "link": "https://leetcode.com/problems/coin-change/"
+      },
+      {
+        "id": 30.2,
+        "name": "Word Break",
+        "link": "https://practice.geeksforgeeks.org/problems/word-break1352/1"
+      },
+      {
+        "id": 30.3,
+        "name": "Rod Cutting",
+        "link": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/"
+      }
+    ]
   }
 ]
