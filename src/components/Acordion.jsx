@@ -2,20 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Accordion, Container, Table } from "react-bootstrap";
 
 const Acordion = ({ payload }) => {
-  console.log('payload.length', payload.length*3)
-  const [totalSelectedCheckboxes, setTotalSelectedCheckboxes] = useState(0);
-  const [checkedState, setCheckedState] = useState(
-    new Array(90).fill(false)
-  );
+  const [checkedState, setCheckedState] = useState(new Array(90).fill(false));
 
   const handleOnChange = (position) => {
     const updatedCheckedState = checkedState.map((item, index) =>
       index === position ? !item : item
     );
     setCheckedState(updatedCheckedState);
-    setTotalSelectedCheckboxes(
-      document.querySelectorAll("input[type=checkbox]:checked").length
-    );
   };
 
   useEffect(() => {
@@ -39,7 +32,7 @@ const Acordion = ({ payload }) => {
           name=""
           id=""
           min={0}
-          value={totalSelectedCheckboxes}
+          value={0}
           max={payload.length * 3}
         />
       </Container>
@@ -73,7 +66,8 @@ const Acordion = ({ payload }) => {
                             type="checkbox"
                             id={`custom-checkbox-${index}`}
                             name={problem.name}
-                            value={problem.name}g
+                            value={problem.name}
+                            g
                             checked={checkedState[index]}
                             onChange={() => handleOnChange(index)}
                           />
