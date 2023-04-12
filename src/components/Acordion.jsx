@@ -2,25 +2,27 @@ import React, { useEffect, useState } from "react";
 import { Accordion, Container, Table } from "react-bootstrap";
 
 const Acordion = ({ payload }) => {
-  const [checkedState, setCheckedState] = useState(new Array(90).fill(false));
-
-  const handleOnChange = (position) => {
-    const updatedCheckedState = checkedState.map((item, index) =>
-      index === position ? !item : item
-    );
-    setCheckedState(updatedCheckedState);
-  };
+  // console.log('payload', payload)
+  const [checkedList, setCheckedList] = useState([
+    new Array(90).fill(false),
+  ]);
 
   useEffect(() => {
-    const items = JSON.parse(localStorage.getItem("items"));
-    if (items) {
-      setCheckedState(items);
+    const storedValue = localStorage.getItem("checkboxList");
+    if (storedValue) {
+      setCheckedList(JSON.parse(storedValue));
     }
   }, []);
 
-  useEffect(() => {
-    localStorage.setItem("items", JSON.stringify(checkedState));
-  }, [checkedState]);
+  const handleCheckboxChange = (event, index) => {
+    const {
+      target: { checked },
+    } = event;
+    const newCheckedList = [...checkedList];
+    newCheckedList[index] = checked;
+    setCheckedList(newCheckedList);
+    localStorage.setItem("checkboxList", JSON.stringify(newCheckedList));
+  };
 
   return (
     <div className="container ">
@@ -64,12 +66,10 @@ const Acordion = ({ payload }) => {
                           <input
                             className="accent-green-500"
                             type="checkbox"
-                            id={`custom-checkbox-${index}`}
-                            name={problem.name}
-                            value={problem.name}
-                            g
-                            checked={checkedState[index]}
-                            onChange={() => handleOnChange(index)}
+                            checked={checkedList[index] || false}
+                            onChange={(event) =>
+                              handleCheckboxChange(event, index)
+                            }
                           />
                         </td>
                         <td className="font-semibold">{problem.name}</td>
